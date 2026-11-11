@@ -1,0 +1,12 @@
+{
+  "name": "public-plugin",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-plugin.mjs",
+    "build:plugin": "node scripts/build-plugin.mjs",
+    "test:plugin-build": "node --test test/plugin-build.test.mjs",
+    "validate:plugin:claude": "npx --yes --registry=https://registry.npmjs.org @anthropic-ai/claude-code@2.1.322 plugin validate --strict --profile directory ./plugins/viralarc-ai-plugin"
+  }
+}

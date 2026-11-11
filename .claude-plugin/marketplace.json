@@ -1,0 +1,16 @@
+{
+  "name": "viralarc-ai",
+  "description": "ViralArc AI plugins for social workflows, lead lists, forms and CouponCity.",
+  "owner": {
+    "name": "ViralArc",
+    "url": "https://viralarc.ai"
+  },
+  "plugins": [
+    {
+      "name": "viralarc-ai-plugin",
+      "source": "./plugins/viralarc-ai-plugin",
+      "description": "Manage ViralArc social workflows, lead lists, forms, and CouponCity campaigns.",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "viralarc-ai": {
+      "type": "http",
+      "url": "https://ai.kani.tw/mcp"
+    }
+  }
+}

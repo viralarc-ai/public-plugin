@@ -1,0 +1,24 @@
+{
+  "name": "viralarc-ai-plugin",
+  "version": "1.0.6",
+  "description": "Manage ViralArc social workflows, lead lists, forms, and CouponCity campaigns through the ViralArc AI MCP server.",
+  "author": {
+    "name": "ViralArc",
+    "url": "https://viralarc.ai"
+  },
+  "homepage": "https://viralarc.ai",
+  "repository": "https://github.com/viralarc-ai/public-plugin",
+  "keywords": [
+    "social-media",
+    "threads",
+    "instagram",
+    "facebook",
+    "automation",
+    "leads"
+  ],
+  "displayName": "ViralArc AI",
+  "icon": "./assets/icon.png",
+  "privacyPolicyUrl": "https://viralarc.ai/privacy-policy",
+  "termsOfServiceUrl": "https://viralarc.ai/terms-of-service",
+  "license": "MIT"
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "viralarc-ai-plugin",
+  "version": "1.0.6",
+  "description": "Manage ViralArc social workflows, lead lists, forms, and CouponCity campaigns through the ViralArc AI MCP server.",
+  "author": {
+    "name": "ViralArc",
+    "url": "https://viralarc.ai"
+  },
+  "homepage": "https://viralarc.ai",
+  "repository": "https://github.com/viralarc-ai/public-plugin",
+  "keywords": [
+    "social-media",
+    "threads",
+    "instagram",
+    "facebook",
+    "automation",
+    "leads"
+  ],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/viralarc-ai/SKILL.md",
+      "interface": {
+        "displayName": "ViralArc AI",
+        "shortDescription": "Manage social workflows",
+        "longDescription": "Work with your ViralArc-connected accounts from chat. Search and filter real Threads posts, prepare drafts or send requested replies, inspect posts and comments, manage supported automations and scheduled replies, and work with lead lists, forms, and CouponCity campaigns. Create coupon drafts, publish requested offers, manage channel links and staff roles, inspect campaign results, and redeem explicitly supplied customer codes. CouponCity and forms do not require a connected social account. Available operations depend on your connected platform, provider, plan, and permissions. Searches and actions retain ViralArc's existing credit and rate limits. Connect your ViralArc account through OAuth to get started.",
+        "developerName": "ViralArc",
+        "category": "Business & Operations",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://viralarc.ai",
+        "privacyPolicyURL": "https://viralarc.ai/privacy-policy",
+        "termsOfServiceURL": "https://viralarc.ai/terms-of-service",
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png",
+        "defaultPrompt": [
+          "Show my connected ViralArc accounts and their automation capabilities.",
+          "Search Threads for posts about my topic and help me draft a reply.",
+          "Review my ViralArc automations and scheduled replies."
+        ]
+      }
+    }
+  },
+  "license": "MIT"
+}

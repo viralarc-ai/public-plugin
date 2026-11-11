@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "viralarc-ai": {
+      "type": "streamable-http",
+      "url": "https://ai.kani.tw/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "cimd"
+            },
+            "authorizationUrl": "https://viralarc.ai/api/oauth/authorize",
+            "tokenUrl": "https://viralarc.ai/api/oauth/token",
+            "authorizationServerBase": "https://viralarc.ai/api/oauth",
+            "resource": "https://ai.kani.tw/mcp",
+            "baseScopes": ["mcp:all", "offline_access"]
+          }
+        }
+      }
+    }
+  }
+}
