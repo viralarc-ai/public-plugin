@@ -129,7 +129,7 @@ than the App's current release when preparing a new update.
 - `mcp.json`: production endpoint and OAuth/CIMD configuration.
 - `skills/viralarc-ai/`: setup, branded terms, and English/Traditional Chinese
   feature workflow references.
-- `assets/icon.png`: existing square ViralArc icon.
+- Bundled branding uses the existing square ViralArc icon.
 - Native Codex and Claude manifests remain available for direct source installs;
   the build regenerates them from the shared metadata.
 
