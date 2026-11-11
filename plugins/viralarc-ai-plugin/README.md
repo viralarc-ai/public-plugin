@@ -33,6 +33,14 @@ operations. Its hosted services use configured AI providers and the social
 platforms connected to your account. Tool results return to Claude. Search and
 mutation requests may consume ViralArc credits or affect the selected account.
 
+For connected Threads, Instagram and Facebook workflows, ViralArc uses data with
+Meta's services: it exchanges the authorized account identifiers, post/comment
+content, media and requested publishing or reply data needed for the operation.
+These exchanges use Meta's platform APIs directly or the account's configured
+Zernio integration. They are limited to the selected social workflow; Form Studio
+and CouponCity records are not automatically sent to Meta merely by using this
+plugin.
+
 Connect through the host's OAuth flow. Manage or revoke the connection in
 ViralArc's account settings. Each execution enforces the signed-in user's access.
 ViralArc's published policies describe data processing, retention and deletion.

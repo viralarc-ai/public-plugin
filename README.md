@@ -28,5 +28,9 @@ npm run validate:plugin:claude
 See [the plugin README](plugins/viralarc-ai-plugin/README.md) for installation,
 OAuth, supported workflows, data handling and build targets.
 
+Connected Threads, Instagram and Facebook workflows exchange the data needed for
+the requested operation with Meta's services, directly or through the configured
+Zernio integration. The plugin README describes this data use in more detail.
+
 The package files and bundled skill instructions are licensed under MIT. Hosted
 ViralArc services remain subject to their published terms and privacy policy.
